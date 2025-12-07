@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3AM Fashion</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff7eb3, #65d6ce, #ffe066, #9b5de5);
+            background-size: 300% 300%;
+            animation: gradientBG 10s ease infinite;
+            color: #fff;
+        }
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        h1 {
+            font-size: 50px;
+            letter-spacing: 3px;
+            margin: 0;
+        }
+        .section {
+            padding: 30px;
+            text-align: center;
+        }
+        .items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            width: 250px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 15px;
+            padding: 15px;
+            backdrop-filter: blur(5px);
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background: rgba(0, 0, 0, 0.3);
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>3AM FASHION</h1>
+        <p>أحدث صيحات الموضة والأزياء</p>
+    </header>
+
+    <section class="section">
+        <h2>الأقسام</h2>
+        <div class="items">
+            <div class="card">
+                <img src="https://via.placeholder.com/250x300" alt="تصميم">
+                <h3>ملابس رجالية</h3>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/250x300" alt="تصميم">
+                <h3>ملابس نسائية</h3>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/250x300" alt="تصميم">
+                <h3>أزياء شبابية</h3>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/250x300" alt="تصميم">
+                <h3>إكسسوارات</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 3AM Fashion – جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
